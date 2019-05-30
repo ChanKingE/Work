@@ -1,0 +1,68 @@
+body{
+    background-color: hsla(0,0%,0%,1.00);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#top{
+    background-image: url(../img/bg-0646.gif);
+    height: 100px;
+    font-size: 50px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.title{
+    height: 100px;
+    text-align: center;
+    font-weight: 1000;
+    font-size: larger;
+    padding-top: 10px;
+}
+#box{
+    width: 865px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img1{
+    float: left;
+    border: medium solid hsla(42,100%,50%,1.00);
+    height: 125px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+}
+.img2{
+    float: right;
+    border: medium solid hsla(42,100%,50%,1.00);
+    height: 125px;
+    text-indent: 0pc;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.img3{
+    float: left;
+    border: medium solid hsla(42,100%,50%,1.00);
+    height: 125px;
+	text-indent: 0pc;
+	margin-right: 10px;
+    margin-bottom: 5px;
+}
+p{
+    text-indent: 2pc;
+    color: hsla(0,0%,100%,1.00);
+    font-size: 13px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    line-height: 17px;
+    letter-spacing: 1px;
+}
+#copyright{
+    background-color: #999999;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}

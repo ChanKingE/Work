@@ -1,0 +1,30 @@
+#top img{
+	float:left;
+}
+#Bigbox{
+	margin:0 auto;
+	width:500px;
+}
+.color{
+	background-color: #0FF;
+	height: 90px;
+	line-height:50px;
+	font-weight: bolder;
+	color: #00F;
+	text-align: center;	
+}
+.copy{
+	background-color: #6F0;
+	height: 50px;
+	line-height:50px;
+	font-weight: bolder;
+	color: #F00;
+	text-align: center;	
+}
+#center{
+	margin:0 auto;
+	width:335px;
+}
+.text{
+	background-color: #FFC;
+}

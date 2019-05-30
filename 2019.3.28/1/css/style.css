@@ -1,0 +1,64 @@
+body {
+    background-color: hsla(0,0%,80%,1.00);	
+}
+#box{
+    padding-left: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rz{
+    background-color: hsla(359,100%,50%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    font-size: 24px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    letter-spacing: 20px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 500;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.bt{
+    color: hsla(2,100%,49%,1.00);
+    font-weight: 1000;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.zz{
+    text-align: right;
+    padding-right: 585px;
+	font-size: 18px;
+}
+#font{
+	 font-size: 12px;
+	 text-indent: 2pc;
+
+}
+.text{
+	line-height: 35px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.text2{
+    color: hsla(56,34%,37%,1.00);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.text3{
+    text-align: right;
+	
+}
+#copyright{
+    background-color: #999999;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}

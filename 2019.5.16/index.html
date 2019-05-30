@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>作业表单</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/text.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<form action="" method="get" name="form" class="form">
+	<div id="Bigbox">
+		<div id="top">增加快递信息</div>
+        <div id="center">
+            <fieldset class="one">
+                <legend>发货单</legend>
+                <div class="box">
+        			<span>发货人姓名：<input name="fhrxm" type="text" class="xm" /></span>
+            		<span>发货人地址：<input name="fhrdz" type="text" class="dz" /></span>
+              	</div>
+				<div class="box">
+            		<span>发货人电话：<input name="fhrdh" type="text" class="dh" /></span>
+            		<span>发货人邮编：<input name="fhryb" type="text" class="yb" /></span>
+           		</div>
+            </fieldset>
+        	<fieldset class="two">
+                <legend>发货单</legend>
+            	<div class="box">
+            		<span>收货人姓名：<input name="shrxm" type="text" class="xm" /></span>
+            		<span>收货人地址：<input name="shrdz" type="text" class="dz" /></span>
+				</div>
+				<div class="box">
+            		<span>收货人电话：<input name="shrdh" type="text" class="dh" /></span>
+            		<span>收货人邮编：<input name="shryb" type="text" class="yb" /></span>
+				</div>
+				<div class="box">
+                	<span>地区:
+					<select name="dq" class="dq">
+                  		<option value="北京">北京</option>
+                  		<option value="上海">上海</option>
+                  		<option value="广州">广州</option>
+                  		<option value="深圳">深圳</option>
+                	</select></span>
+                	<span>包装：
+                	<input name="zx" type="checkbox" value="1" />纸箱
+                    <input name="mx" type="checkbox" value="2" />木箱
+                	<input name="kdd" type="checkbox" value="3" />快递袋
+                    <input name="qt" type="checkbox" value="4" />其他
+					</span>
+				</div>
+				<div class="box">
+                	付款方式：
+                	<input name="zf" type="radio" value="1" checked />现金
+                    <input name="zf" type="radio" value="2" />支付宝
+                    <input name="zf" type="radio" value="3"  />网银
+                    <input name="zf" type="radio" value="4"  />ATM
+				</div>
+			</fieldset>
+			<fieldset class="three">
+            	<legend>发货单</legend>
+				<div class="box">
+            		货物名称：<input name="hwmc" type="text" class="hwmc" />
+				</div>
+				<div class="box">
+					<span>数量：<input name="sl" type="text" class="zl" /></span>
+					<span>重量：<input name="zl" type="text" class="zl" /></span>
+                	<span>发货时间：<input name="fhsj" type="text" class="sj" /></span>
+				</div>
+			</fieldset>
+		</div>
+	  	<div id="bottom">
+        	<input name="qd" type="submit" value="确定" />
+            <input name="qx" type="reset" value="取消" />
+		</div>
+		<div class="copyright">广东财经大学18级计算机2班&nbsp;&nbsp;2019.5.16&nbsp;&nbsp;&copy;陈刚毅</div>
+	</div>
+</form>
+</body>
+</html>
