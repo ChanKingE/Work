@@ -1,0 +1,29 @@
+body{
+	background-image: url(../images/body.gif);
+	margin: 0;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+p{
+	text-indent: 2pc;
+	font-size: 13px;
+	line-height: 30px;
+}
+#bigbox{
+	margin: 0 auto;
+	width: 960px;
+	background-color: rgba(255,255,255,1.00);
+}
+#center{
+	height: 250px;
+	padding: 0 10px;
+}
+#copyright{
+	background-color: rgba(178,166,149,1.00);
+	font-size: 13px;
+	text-align: center;
+	margin: 10px 0;
+	padding: 25px 0;
+}

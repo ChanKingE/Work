@@ -1,0 +1,42 @@
+#Bigbox{
+    margin: 0 auto;
+    width: 700px;
+    background-color: #666;
+    color: #FFF;
+}
+#top{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 40px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#center{
+    font-size: 15px;
+}
+#bottom{
+    width: 105px;
+    height: 50px;
+    margin: 0 auto;
+}
+fieldset{
+    margin: 40px 25px;
+    padding: 0 25px;
+}
+legend{
+    color: #FFFFFF;	
+}
+.box{
+    margin: 15px 0;
+}
+span{
+    margin-right: 45px;	
+}
+#center input,select{
+	background-color: rgba(232,232,232,1.00);
+	border: 1px outset rgba(0,0,0,1.00);
+}
+#bottom input{
+    width: 50px;
+    border-style: hidden;
+}

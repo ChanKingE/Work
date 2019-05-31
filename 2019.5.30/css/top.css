@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*顶部*/
+.menu{
+	border-top-width: 10px;
+	border-top-style: groove;
+	border-top-color: #000;
+	background-color: rgba(255,255,255,1.00);
+}
+.menu a{
+	width: 75px;
+	font-size: 15px;
+	line-height: 44px;
+	display: inline-block;
+	text-align: center;
+	-webkit-transition: all .75s .25s;
+	-o-transition: all .75s .25s;
+	transition: all .75s .25s;
+}
+/*鼠标指中菜单栏*/
+.menu a:hover{
+	color: #FFF;
+	background-color: #F00;	
+	-webkit-transition: all .75s;
+	-o-transition: all .75s;
+	transition: all .75s;
+	transform: translate(0,5px);
+}
+/*目标位置*/
+#load{
+	line-height: 40px;
+	font-size: 12px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(239,239,239,1.00) 100%);
+}
+/*搜索*/
+.ss{
+	font-size: 18px;
+	height: 40px;
+	pidding: auto 0;
+	margin-right: 40px;
+	font-weight: bolder;
+}
+.search{
+	background-color: rgba(240,0,4,1.00);
+	border-radius: 2px;
+	width: 70px;
+	height: 25px;
+    border-style: hidden;
+    border-radius: 5px;
+	-webkit-transition: all 0.75s;
+	-o-transition: all 0.75s;
+	transition: all 0.75s;
+	color: rgba(255,255,255,1.00);
+}
+/*鼠标指中搜索按钮*/
+.search:hover{
+	background-color: rgba(20,75,71,1.00);
+	-webkit-transition: all 0.75s;
+	-o-transition: all 0.75s;
+	transition: all 0.75s;
+	transform: scale(1.25,1.25);
+}
+/*鼠标点击搜索按钮*/
+.search:focus{
+	background-color: rgba(0,0,0,1.00);
+}
