@@ -26,9 +26,15 @@
 	background-image: url(../images/nav_hover.gif);
 	height: 45px;
 	position: relative;
-	bottom: 3px;
+	bottom: 2px;
 	font-size: 110%;
 	font-weight: 500;
+}
+.photo{
+	display:none;
+}
+.menu a:hover .photo{
+	display:
 }
 .line{
 	border-left: 1px ridge rgba(234,113,7,0.24);
