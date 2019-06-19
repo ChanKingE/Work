@@ -1,0 +1,81 @@
+@charset "utf-8";
+#center{
+	padding: 5px;
+	height: 215px;
+}
+/*三亚温度*/
+.temp{
+	width: 220px;
+	height: 210px;
+	border: 2px double rgba(190,154,78,1.00);
+	font-weight: bolder;
+	border-radius: 4px;
+	background-image: -webkit-linear-gradient(90deg,rgba(255,255,255,1.00) 0%,rgba(241,230,212,1.00) 62.69%);
+	background-image: -moz-linear-gradient(90deg,rgba(255,255,255,1.00) 0%,rgba(241,230,212,1.00) 62.69%);
+	background-image: -o-linear-gradient(90deg,rgba(255,255,255,1.00) 0%,rgba(241,230,212,1.00) 62.69%);
+	background-image: linear-gradient(0deg,rgba(255,255,255,1.00) 0%,rgba(241,230,212,1.00) 62.69%);
+	margin-right: 5px;
+}
+.temp_title{
+	background-image: -webkit-linear-gradient(270deg,rgba(244,238,226,1.00) 0%,rgba(231,208,156,1.00) 61.66%);
+	background-image: -moz-linear-gradient(270deg,rgba(244,238,226,1.00) 0%,rgba(231,208,156,1.00) 61.66%);
+	background-image: -o-linear-gradient(270deg,rgba(244,238,226,1.00) 0%,rgba(231,208,156,1.00) 61.66%);
+	background-image: linear-gradient(180deg,rgba(244,238,226,1.00) 0%,rgba(231,208,156,1.00) 61.66%);
+	line-height: 40px;
+	color: rgba(19,112,156,1.00);
+	padding-left: 25px;
+	border-bottom: 1px double rgba(255,255,255,1.00);
+}
+.sun{
+	margin: 10px 20px;
+}
+.temp_main p{
+	margin-top: 10px;
+	text-align: left;
+	font-size: 13px;
+	margin-left: 80px;
+}
+.font{
+	color: rgba(245,109,1,1.00);	
+	font-weight: 900;
+}
+.font2{
+	color: rgba(26,77,157,1.00);
+	font-weight: 400;
+	margin-left: 5px;
+}
+.text{
+	color: rgba(224,116,32,1.00);
+	font-weight: 500;
+	margin: 20px 8px;
+	text-align: left;
+	font-size: 12px;
+	text-indent: 2pc;
+	line-height: 20px;
+}
+.img{
+	margin: 2px 0;
+}
+/*导航栏*/
+.bar{
+	height: 220px;
+	width: 230px;
+	margin-left: 5px;
+	margin: 2px 0;
+}
+.bar a{
+	color: rgba(86,182,233,1.00);
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(254,254,254,1.00) 3.63%,rgba(234,234,234,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(254,254,254,1.00) 3.63%,rgba(234,234,234,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(254,254,254,1.00) 3.63%,rgba(234,234,234,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(254,254,254,1.00) 3.63%,rgba(234,234,234,1.00) 100%);
+	line-height: 52.5px;
+	width: 228px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+}
+.bar a:hover{
+	font-size: 150%;
+	color: rgba(251,90,93,1.00)
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+#top img{
+	float: left;
+}
+.menu{
+	line-height: 45px;
+	background-image: url(../images/nav_bj.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.menu-center {
+	width: 780px;
+	margin: 0 auto;
+}
+.menu a{
+	width: 100px;
+	color: rgba(255,255,255,1.00);
+	text-decoration: none;
+	font-weight: 600;
+	display: inline-block;
+	text-align: center;	
+	font-size: 14px;
+	margin-left: 5px;
+}
+.menu a:hover{
+	background-image: url(../images/nav_hover.gif);
+	height: 45px;
+	position: relative;
+	bottom: 3px;
+	font-size: 110%;
+	font-weight: 500;
+}
+.line{
+	border-left: 1px ridge rgba(234,113,7,0.24);
+}

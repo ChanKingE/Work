@@ -1,0 +1,24 @@
+@charset "utf-8";
+#bottom{
+	width: 946px;
+	border: 2px double rgba(189,207,218,1.00);
+	margin: 5px;
+}
+#bottom .head{
+	line-height: 30px;
+	background-image: -webkit-linear-gradient(270deg,rgba(123,208,255,0.73) 0%,rgba(115,205,255,1.00) 48.19%,rgba(90,196,254,0.76) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(123,208,255,0.73) 0%,rgba(115,205,255,1.00) 48.19%,rgba(90,196,254,0.76) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(123,208,255,0.73) 0%,rgba(115,205,255,1.00) 48.19%,rgba(90,196,254,0.76) 100%);
+	background-image: linear-gradient(180deg,rgba(123,208,255,0.73) 0%,rgba(115,205,255,1.00) 48.19%,rgba(90,196,254,0.76) 100%);
+}
+#bottom .title-s{
+	margin: 0 20px;
+	color: rgba(255,255,255,1.00)
+}
+#bottom .boxs{
+	padding-left: 20px;
+	line-height: 30px;
+}
+#bottom .boxs a{
+	margin: 0 9.5px;
+}
