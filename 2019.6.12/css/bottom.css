@@ -22,3 +22,6 @@
 #bottom .boxs a{
 	margin: 0 9.5px;
 }
+#bottom .boxs a:hover{
+	color: rgba(255,0,4,1.00);
+}

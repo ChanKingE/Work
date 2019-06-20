@@ -21,6 +21,7 @@
 	text-align: center;	
 	font-size: 14px;
 	margin-left: 5px;
+
 }
 .menu a:hover{
 	background-image: url(../images/nav_hover.gif);
@@ -30,12 +31,16 @@
 	font-size: 110%;
 	font-weight: 500;
 }
-.photo{
-	display:none;
-}
-.menu a:hover .photo{
-	display:
-}
 .line{
 	border-left: 1px ridge rgba(234,113,7,0.24);
+}
+
+.photo {
+	display: none;
+}
+.menu a:hover .photo {
+	transform: scale(5.0,5.0);
+	display: block;
+	left: 10px;
+	position: relative;
 }
